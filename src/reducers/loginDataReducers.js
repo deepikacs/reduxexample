@@ -1,8 +1,8 @@
 import { EMAIL ,PASSWORD} from '../actions/types';
 
 const INITIAL_STATE = {
-  email: {},
-  password:{},
+  email: '',
+  password:'',
 };
 
 export default (state = INITIAL_STATE, action) => {

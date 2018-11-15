@@ -7,7 +7,6 @@ class Login extends Component {
   constructor(props){
     super(props);
     this.state={
-        data1:true,
         email2:'',
         psw2:'',
     };
